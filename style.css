@@ -4,7 +4,7 @@ html{scroll-snap-type:none}
 html[dir=rtl]{--serif:'Noto Naskh Arabic',serif;--sans:'Noto Naskh Arabic',sans-serif}
 body{background:var(--navy);color:var(--white);font-family:var(--sans);font-weight:300;line-height:1.7}
 a{color:inherit}
-.nav{position:fixed;inset:0 0 auto;z-index:50;display:flex;justify-content:space-between;align-items:center;padding:1.1rem clamp(1rem,4vw,3rem);background:linear-gradient(#041B2Dcc,transparent)}
+.nav{position:fixed;inset:0 0 auto;z-index:50;display:flex;justify-content:space-between;align-items:center;padding:1.1rem clamp(1.5rem,4vw,5rem);background:linear-gradient(#041B2Dcc,transparent)}
 .logo{text-decoration:none;letter-spacing:.3em;font-weight:600;font-size:.85rem}
 .nav nav{display:flex;gap:1.5rem;align-items:center}.nav nav a:not(.btn){text-decoration:none;font-size:.85rem;opacity:.85}.nav nav a:not(.btn):hover{color:var(--teal)}
 #burger{display:none;background:none;border:0;width:44px;height:44px}#burger i{display:block;height:2px;background:var(--white);margin:7px 8px}
@@ -17,7 +17,7 @@ a{color:inherit}
 .lang-list li{display:flex;align-items:center;gap:.8rem;padding:.6rem .85rem;border-radius:.7rem;font-size:.9rem;cursor:pointer;outline:0}
 .lang-list li b{font-size:.68rem;letter-spacing:.14em;color:var(--teal);width:1.6rem}
 .lang-list li:hover,.lang-list li:focus{background:#20C5C522}.lang-list li[aria-selected=true]{background:#20C5C533}
-.btn{display:inline-block;padding:1rem 2rem;border-radius:99px;background:var(--teal);color:var(--navy);font-weight:600;text-decoration:none;letter-spacing:.08em;font-size:.8rem;transition:.35s;min-height:44px;border:0;cursor:pointer;font-family:var(--sans);line-height:1.7}
+.btn{display:inline-block;padding:1rem 2rem;border-radius:99px;background:var(--teal);color:var(--navy);font-weight:600;text-decoration:none;letter-spacing:.08em;font-size:.9rem;transition:.35s;min-height:44px;border:0;cursor:pointer;font-family:var(--sans);line-height:1.7}
 .btn:hover{transform:translateY(-3px);box-shadow:0 12px 30px #20C5C555}.ghost{background:transparent;color:var(--white);border:1px solid #fff8}.sm{padding:.6rem 1.2rem}
 /* full-height blocks + snap (only layout change) */
 .hero,.sec{position:relative;overflow:hidden;min-height:100svh;scroll-snap-align:start;scroll-snap-stop:always;display:flex}
